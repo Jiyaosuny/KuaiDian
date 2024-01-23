@@ -16,7 +16,7 @@
     // 去除watermar
     GM_addStyle('.watermark{visibility: hidden !important;}');
     //今日收入
-    GM_addStyle('.income-card{background: black !important;border-style: dashed;}；.page .level-info .title{color:#ffffff};');
+    GM_addStyle('.income-card{background: black !important;border-style: dashed;};.page .level-info .title{color:#ffffff};');
     //等级展示
     GM_addStyle('.level-info{background: black !important;border-style: dashed;}');
     //今日排名
