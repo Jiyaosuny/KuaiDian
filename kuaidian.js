@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         快点众包界面优化
 // @namespace    kdzb.cc
-// @version      1.0
+// @version      1.01
 // @description  配合Windows高对比度主题暗夜一起使用，主要为了不晃眼睛，最适用于利用前进和后退刷题的小伙伴们
 // @author       Jiyao
 // @match        https://kdzb.cc/*
