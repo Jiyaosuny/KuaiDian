@@ -25,7 +25,6 @@
     GM_addStyle('.ranking{background: black !important;}.personal .ranking .rank-num{color:#ffffff !important;}.personal .ranking .name{color:#ffffff !important;}');
     //个人概况
     GM_addStyle('.personal .withdraw-box{background-color: #000000 !important;border-style: dashed;border-color:#ffffff;}.personal .num-box .time-item{background-color: #000000 !important;}.personal .num-box .num-item{border-style: dashed;}.personal{background-color: #000000 !important;}.personal .earnings{color:#ffffff !important;}.personal .title{color:#ffffff !important;}.personal .num-box .num-item{background-color: #000000 !important;}.personal .num-box .item .name{color:#ffffff !important;}.personal .num-box .item .num{color:#ffffff !important;}');
-
     //订单统计和排名
     GM_addStyle('.rank-list .rank-head{background: #000000 !important;color:#ffffff !important;}.rank-list .rank-foot{background: #000000 !important;color:#ffffff !important;}.home-page .bottom .section-statistics{background-color: #000000 !important;}.analysis .num-box .item{background: #000000 !important;}.analysis .num-box .item .name{color:#ffffff !important;}.analysis .num-box .item .num{color:#ffffff !important;}');
 
