@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         快点众包界面优化
 // @namespace    kdzb.cc
-// @version      1.04
+// @version      1.05
 // @description  配合Windows高对比度主题暗夜一起使用，主要为了不晃眼睛，最适用于利用前进和后退刷题的小伙伴们
 // @author       Jiyao
 // @match        https://kdzb.cc/*
@@ -26,9 +26,13 @@
     //个人概况
     GM_addStyle('.personal .withdraw-box{background-color: #000000 !important;border-style: dashed;border-color:#ffffff;}.personal .num-box .time-item{background-color: #000000 !important;}.personal .num-box .num-item{border-style: dashed;}.personal{background-color: #000000 !important;}.personal .earnings{color:#ffffff !important;}.personal .title{color:#ffffff !important;}.personal .num-box .num-item{background-color: #000000 !important;}.personal .num-box .item .name{color:#ffffff !important;}.personal .num-box .item .num{color:#ffffff !important;}');
     //订单统计和排名
-    GM_addStyle('.rank-list .rank-body .item .count .val{color:#ffffff !important;}.rank-list .rank-body .item .name .val{color:#ffffff !important;}.rank-list .rank-body .item .rank .num{color:#ffffff !important;}.home-page .tab-section .tab-box{background: #000000 !important;color:#ffffff !important;}.title{color:#ffffff !important;}.analysis .title{color:#ffffff !important;}.rank-list .rank-head{background: #000000 !important;color:#ffffff !important;}.rank-list .rank-foot{background: #000000 !important;color:#ffffff !important;}.home-page .bottom .section-statistics{background-color: #000000 !important;}.analysis .num-box .item{background: #000000 !important;}.analysis .num-box .item .name{color:#ffffff !important;}.analysis .num-box .item .num{color:#ffffff !important;}');
+    GM_addStyle('.rank-list .rank-foot .num{color:#ffffff !important;}.rank-list .rank-body .item .count,.el-menu-item,el-sub-menu,.el-sub-menu__title{color:#ffffff !important;}.rank-list .rank-body .item .name .val{color:#ffffff !important;}.rank-list .rank-body .item .rank .num{color:#ffffff !important;}.home-page .tab-section .tab-box{background: #000000 !important;color:#ffffff !important;}.title{color:#ffffff !important;}.analysis .title{color:#ffffff !important;}.rank-list .rank-head{background: #000000 !important;color:#ffffff !important;}.rank-list .rank-foot{background: #000000 !important;color:#ffffff !important;}.home-page .bottom .section-statistics{background-color: #000000 !important;}.analysis .num-box .item{background: #000000 !important;}.analysis .num-box .item .name{color:#ffffff !important;}.analysis .num-box .item .num{color:#ffffff !important;}');
+    // 任务概况
+    GM_addStyle('.page,.h-container .el-row.is-align-middle{background-color: #000000 !important;}.h-table-container{background-color: #000000 !important;border-style: dashed;border-color:#ffffff;}.el-table{--el-table-header-bg-color: #000000 !important;--el-table-header-text-color: #ffffff !important;}');
+    //首页左栏
+    GM_addStyle('.aside[data-v-523c7ac2] .el-menu--vertical>.el-menu-item.is-active{background: #3f3f43; !important;}.aside,.el-container.is-vertical,.el-menu{background: black !important;}');
 
-    GM_addStyle('.goods-camp{background: black !important;}');
+    GM_addStyle('.el-badge__content--danger { background-color: #ffffff;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
 
     GM_addStyle('.el-badge__content.is-fixed{font-size: xx-large !important;}');
  })();
