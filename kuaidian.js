@@ -8,6 +8,8 @@
 // @icon         https://kdzb.cc/logo.png
 // @license      AGPL-3.0
 // @grant        GM_addStyle
+// @grant        GM_addElement
+// @run-at       document-body
 // @downloadURL https://update.greasyfork.org/scripts/485391/%E5%BF%AB%E7%82%B9%E4%BC%97%E5%8C%85%E7%95%8C%E9%9D%A2%E4%BC%98%E5%8C%96.user.js
 // @updateURL https://update.greasyfork.org/scripts/485391/%E5%BF%AB%E7%82%B9%E4%BC%97%E5%8C%85%E7%95%8C%E9%9D%A2%E4%BC%98%E5%8C%96.meta.js
 // ==/UserScript==
@@ -15,11 +17,13 @@
 (function() {
     'use strict';
     //顶部变黑
-    var top1 = document.getElementsByClassName('el-header');
+    //var top1 = document.getElementsByClassName('el-header');
 
-    top1[0].innerHTML = top1[0].innerHTML.replace('background-color: rgb(255, 255, 255)','background-color: rgb(0, 0, 0)');
+    //top1[0].innerHTML = top1[0].innerHTML.replace('background-color: rgb(255, 255, 255)','background-color: rgb(0, 0, 0)');
 
-    GM_addStyle('.tab-box .tab-active{color: #4c86fe;}.tab-box .tab{color: #ffffff;}')
+    //GM_addElement(document.getElementsByTagName('div')[16],'style',{textContent:'div{height:100%;padding:12px;background-color:rgb(0,0,0);};'})
+
+    GM_addStyle('.tab-box .tab{color: #ffffff !important;}.login-container,.right{background: black !important;}')
 
     // 去除watermar,黑色背景
     GM_addStyle('.watermark{visibility: hidden !important;}.el-scrollbar__wrap{background: black;}');
