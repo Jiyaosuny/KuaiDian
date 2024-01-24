@@ -14,6 +14,12 @@
 
 (function() {
     'use strict';
+    //顶部变黑
+    var top1 = document.getElementsByClassName('el-header');
+
+    top1[0].innerHTML = top1[0].innerHTML.replace('background-color: rgb(255, 255, 255)','background-color: rgb(0, 0, 0)');
+
+    GM_addStyle('.tab-box .tab-active{color: #4c86fe;}.tab-box .tab{color: #ffffff;}')
 
     // 去除watermar,黑色背景
     GM_addStyle('.watermark{visibility: hidden !important;}.el-scrollbar__wrap{background: black;}');
@@ -35,4 +41,5 @@
     GM_addStyle('.el-badge__content--danger { background-color: #ffffff;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
 
     GM_addStyle('.el-badge__content.is-fixed{font-size: xx-large !important;}');
+    document.body.div[app].section.section.header.innerHTML = document.body.div[app].section.section.header.innerHTML.repplace('rgb(255,255,255)','rgb(0,0,0)')
  })();
