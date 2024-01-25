@@ -42,7 +42,7 @@
     //首页左栏
     GM_addStyle('.aside[data-v-523c7ac2] .el-menu--vertical>.el-menu-item.is-active{background: #3f3f43; !important;}.aside,.el-container.is-vertical,.el-menu{background: black !important;}');
 
-    GM_addStyle('.el-badge__content--danger { background-color: #ffffff;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
+    GM_addStyle('.el-badge__content--danger { background-color: #ffffff !important;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
 
     GM_addStyle('.el-badge__content.is-fixed{font-size: xx-large !important;}');
  })();
