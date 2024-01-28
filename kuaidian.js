@@ -40,7 +40,7 @@
     // 任务概况
     GM_addStyle('.page,.h-container .el-row.is-align-middle{background-color: #000000 !important;}.h-table-container{background-color: #000000 !important;border-style: dashed;border-color:#ffc200;}.el-table{--el-table-header-bg-color: #000000 !important;--el-table-header-text-color: #ffc200 !important;}');
     //首页左栏
-    GM_addStyle('.aside[data-v-523c7ac2] .el-menu--vertical>.el-menu-item.is-active{background: #3f3f43; !important;}.aside,.el-container.is-vertical,.el-menu{background: black !important;}');
+    GM_addStyle('.aside[data-v-523c7ac2] .el-menu--vertical>.el-menu-item.is-active{background: #3f3f43 !important;}.aside,.el-container.is-vertical,.el-menu{background: black !important;}');
 
     GM_addStyle('.el-badge__content--danger { background-color: #ffc200 !important;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
 
