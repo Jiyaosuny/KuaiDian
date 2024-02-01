@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         快点众包界面优化
 // @namespace    kdzb.cc
-// @version      1.11
+// @version      1.12
 // @description  配合Windows高对比度主题暗夜一起使用，主要为了不晃眼睛，最适用于利用前进和后退刷题的小伙伴们
 // @author       Jiyao
 // @match        https://kdzb.cc/*
@@ -42,7 +42,7 @@
     //首页左栏
     GM_addStyle('.aside[data-v-523c7ac2] .el-menu--vertical>.el-menu-item.is-active{background: #3f3f43 !important;}.aside,.el-container.is-vertical,.el-menu{background: black !important;}');
 
-    GM_addStyle('.el-badge__content--danger { background-color: #ffc200 !important;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
+    GM_addStyle('.el-badge__content--danger { background-color: #ffffff !important;}.send-order-tip{background-color: #000000 !important;}.goods-camp{background: black !important;}.el-badge__content{color: #000000 !important;}');
 
     GM_addStyle('.el-badge__content.is-fixed{font-size: xx-large !important;}.item .weight-changed{border: 5px solid #3b00ff !important;}');
  })();
