@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         快点众包界面优化
 // @namespace    kdzb.cc
-// @version      1.12
+// @version      1.15
 // @description  配合Windows高对比度主题暗夜一起使用，主要为了不晃眼睛，最适用于利用前进和后退刷题的小伙伴们
 // @author       Jiyao
 // @match        https://kdzb.cc/*
@@ -23,10 +23,10 @@
 
     //GM_addElement(document.getElementsByTagName('div')[16],'style',{textContent:'div{height:100%;padding:12px;background-color:rgb(0,0,0);};'})
 
-    GM_addStyle('.tab-box .tab{color: #ffc200 !important;}.login-container,.right{background: black !important;}')
+    GM_addStyle('.tab-box .tab{color: #ffc200 !important;}.login-container,.right{background: black !important;}.style {background-color: rgb(0 0 0);}')
 
     // 去除watermar,黑色背景
-    GM_addStyle('.watermark{visibility: hidden !important;}.el-scrollbar__wrap{background: black;}');
+    GM_addStyle('.watermark{visibility: hidden !important;}.el-scrollbar__wrap{background: black;}.el-card__body {background-color: black;}.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell {background-color: #606060;}.el-table tr {background-color: #000000;}.el-table__body-wrapper tr td.el-table-fixed-column--left {background-color: #000000;}.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {background-color: #272727 !important;}.el-table td.el-table__cell div {FONT-WEIGHT: 600;font-size: 16px;color: #FFC200;}');
     //今日收入
     GM_addStyle('.income-card{background: black !important;border-style: dashed;border-color:#ffc200;}');
     //等级展示
